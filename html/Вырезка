@@ -1,0 +1,428 @@
+; блоки предметов
+ <!-- ПМ 02.01 -->
+        <!-- <div class="service" id="mobil">
+          <img src="../img/tech-po.jpg" id="imgA" alt="МДК.02.01 Технология разработки программного обеспечения" />
+          <div class="service-content">
+            <button id="butto-dialog" type="button" onclick="window.MDK_02_01.showModal()">
+              <h3>МДК.02.01</h3>
+              <p>Технология разработки программного обеспечения</p>
+            </button>
+          </div>
+
+        </div> -->
+        <!-- ПМ 02.02  -->
+        <!-- <div class="service" id="mobil">
+          <img src="../img/sredstva-razrabot.jpg" id="imgA"
+            alt="МДК.02.02 Инструментальные средства разработки программного обеспечения" />
+          <div class="service-content">
+            <button id="butto-dialog" type="button" onclick="window.MDK_02_02.showModal()">
+              <h3>МДК.02.02</h3>
+              <p>
+                Инструментальные средства разработки программного обеспечения
+              </p>
+            </button>
+          </div>
+
+        </div> -->
+        <!-- МДК.02.03 -->
+        <!-- <div class="service" id="mobil">
+          <img src="../img/math-models.jpg" alt="МДК.02.03 Математическое моделирование" class="imgA" />
+          <div class="service-content">
+            <button id="butto-dialog" type="button" onclick="window.MDK_02_03.showModal()">
+              <h3>МДК.02.03</h3>
+              <p>Математическое моделирование</p>
+            </button>
+          </div>
+
+        </div> -->
+        <!-- МДК 02.04 -->
+        <!-- <div class="service" id="mobil">
+          <img src="../img/integration.png" alt="МДК 02.04 Интеграция программных модулей в корпоративную информационную
+            систему" />
+          <div class="service-content">
+            <button id="butto-dialog" type="button" onclick="window.MDK_02_04.showModal()">
+              <h3>МДК.02.04</h3>
+              <p>
+                Интеграция программных модулей в корпоративную информационную
+                систему
+              </p>
+            </button>
+          </div>
+        </div> -->
+        <!-- МДК 04.01 -->
+        <!-- < class="service" id="mobil">
+          <img src="../img/podderjka.jpg" alt="МДК 04.01 Внедрение и поддержка компьютерных систем" />
+          
+            <div class="service-content">
+            <button id="butto-dialog" type="button" onclick="window.MDK_04_01.showModal()">
+              <h3>МДК.04.01</h3>
+              <p>Внедрение и поддержка компьютерных систем</p>
+          </button>
+        </div>
+        -->
+       <!-- МДК 04.02 -->
+       <!-- <div class="service" id="mobil">
+        <img src="../img/obespech-teh.jpg" alt="МДК 04.02 Обеспечение качества функционирования компьютерных систем" />
+        <div class="service-content">
+          <button id="butto-dialog" type="button" onclick="window.MDK_04_02.showModal()">
+            <h3>МДК.04.02</h3>
+            <p>Обеспечение качества функционирования компьютерных систем</p>
+          </button>
+        </div>
+       </div> -->
+       <!-- ОП.14 -->
+       <!-- <div class="service" id="mobil">
+        <img src="../img/Sistem-administration.jpg" alt="ОП.14 Сетевое и системное администрирование" />
+        <div class="service-content">
+          <button id="butto-dialog" type="button" onclick="window.OP_14.showModal()">
+            <h3>ОП.14</h3>
+            <p>Сетевое и системное администрирование</p>
+          </button>
+        </div>
+        </div> -->
+       <!-- ОП.15 -->
+       <!-- <div class="service" id="mobil">
+        <img src="../img/i.png" alt="ОП.15 Компьютерная Графика" />
+        <div class="service-content">
+          <button id="butto-dialog" type="button" onclick="window.OP_15.showModal()">
+            <h3>ОП.15</h3>
+            <p>Компьютерная Графика</p>
+          </button>
+        </div>
+       </div> -->
+
+       <!-- Веб-разработка -->
+       <!-- <div class="service" id="mobil">
+        <img src="../img/html-css.jpg" alt="Веб-разработка" />
+        <div class="service-content">
+          <button id="butto-dialog" type="button" onclick="window.Web.showModal()">
+            <h3>Веб-разработка</h3>
+            <p>Научись писать самые крутые сайты</p>
+          </button>
+        </div> -->
+; 
+
+; внутрянка форм с лекциями 
+  </section>
+  <!-- 02.01 -->
+  <dialog id="MDK_02_01" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Технология разработки программного обеспечения</h2>
+    <a href="../lectures/MDK 02.01/1.1 Анализ предметной области. Основные понятия.pdf"><button class="btn-present">
+        1.1 Понятия требований, классификация, уровни требований
+      </button>
+    </a>
+    <a href=""><button class="btn-present">
+        1.2 Современные принципы и методы разработки программных приложений
+      </button>
+    </a>
+    <a href=""><button class="btn-present">
+        1.3 Методы организации работы в команде разработчиков. Системы
+        контроля версий
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.4 Основные подходы к интегрированию програ модулей
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">1.5 Стандарты кодирования</button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.6 Документирование жизненного цикла ПО
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.7 ЕСПД. Виды программных документов
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.8 Разработка технического задания на программный продукт
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.9 Внесение изменений в техническое задание
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">1.10 Документирование разработки</button>
+    </a>
+    <a href="#"><button class="btn-present">1.11 Документирование тестирования</button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.12Разработка спецификаций на программный продукт
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">1.13Основные понятия сертификации</button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.14 Обеспечение качества через стандартизацию и сертификацию
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.15 Стандарты в области программного обеспечения
+      </button>
+    </a>
+    <!-- UML -->
+    <a href="#"><button class="btn-present">
+        1.16 Описание требований: уницифированный язык моделирования
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.17 Описание и оформление требований
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.18 Анализ требований и стратегия выбора решения
+      </button>
+    </a>
+    <!-- Тестирование -->
+    <a href="#"><button class="btn-present">1.19 Цели и задачи тестирования</button>
+    </a>
+    <a href="#"><button class="btn-present">1.20 Тестовое покрытие</button>
+    </a>
+    <a href="#"><button class="btn-present">1.21 Тестовый сценарий</button>
+    </a>
+    <a href="#"><button class="btn-present">1.22 Анализ спецификаций</button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.23 Показатели и характеристики качества программного продукта
+      </button>
+    </a>
+    <a href="#"><button class="btn-present">
+        1.24 иды метрик качества программного продукта
+      </button>
+    </a>
+
+    <!-- <button
+        class="btn-present"
+        id="butto-dialog"
+        type="button"
+        onclick="window.MDK_02_01_practic.showModal()">
+        Практические занятия
+      </button> -->
+  </dialog>
+
+  <!-- 02.02 -->
+  <dialog id="MDK_02_02" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Инструментальные средства разработки программного обеспечения</h2>
+    <a href="# "><button class="btn-present">1.1 Понятие репозитория проекта</button> </a>
+    <a href="#"><button class="btn-present">1.2 Виды интеграции программных модулей</button> </a>
+    <a href="#"><button class="btn-present">1.3 Автоматизация бизнесс-процессов</button> </a>
+    <a href="#"><button class="btn-present">1.4 Выбор источников и приемников данных</button> </a>
+    <a href="#"><button class="btn-present">1.5 Транспортные протоколы</button> </a>
+    <a href="#"><button class="btn-present">1.6 Организация работы команды в системе контроля версий</button> </a>
+    <a href="#"><button class="btn-present">1.7 Отладка программных модулей</button> </a>
+    <a href="#"><button class="btn-present">1.8 Ручное и автоматизированное тестирование</button> </a>
+    <a href="#"><button class="btn-present">1.9 Методы и средства организации тестирования</button> </a>
+    <a href="#"><button class="btn-present">1.10 Инструментарии анализа качества программных продуктов в среде
+        разработки</button> </a>
+    <a href="#"><button class="btn-present">1.11 Методы и способы идентификации сбоев и ошибок</button> </a>
+    <a href="#"><button class="btn-present">1.12 Выявление ошибок системных компонентов</button> </a>
+  </dialog>
+  <!-- 02.03 -->
+  <dialog id="MDK_02_03" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Метматическое моделирование</h2>
+    <a href=" # "><button class="btn-present">1.1 Понятие решения</button> </a>
+    <a href=" #"><button class="btn-present">1.2 Общий вид и основная задача линейного программирования</button> </a>
+    <a href=" #"><button class="btn-present">1.3 Транспортная задача</button> </a>
+    <a href="#"><button class="btn-present">1.4 Общий вид задач нелинейного программирования</button> </a>
+    <a href="#"><button class="btn-present">1.5 Основные понятия динамического программирования</button> </a>
+    <a href="#"><button class="btn-present">1.6 Методы хранения графов в памяти ЭВМ </button> </a>
+    <a href="#"><button class="btn-present">1.7 Системы массового обслуживания</button> </a>
+    <a href="#"><button class="btn-present">1.8 Предмет и задачи теории игр</button> </a>
+    <a href="#"><button class="btn-present">1.9 Антогонистические матричные игры</button> </a>
+  </dialog>
+
+  <!-- 02.04 -->
+  <dialog id="MDK_02_04" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Интеграция программных модулей в корпоративную информационную
+      систему</h2>
+    <a href=" # "><button class="btn-present">1.1 Системный подход к информатизации бизнеса</button> </a>
+    <a href=" #"><button class="btn-present">1.2 Категории информационных систем</button> </a>
+    <a href=" #"><button class="btn-present">1.3 Интеграция информационных систем предприятия</button> </a>
+    <a href="#"><button class="btn-present">1.4 разработка и внедрение информационной системы</button> </a>
+    <a href="#"><button class="btn-present">1.5 Информационные технологии предприятий</button></a>
+  </dialog>
+
+  <!-- 04.01 -->
+  <dialog id="MDK_04_01" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Внедрение и поддержка компьютерных систем</h2>
+    <a href=" # "><button class="btn-present">1.1 ГОСТ Р ИСО/МЭК 12207. Основные процессы и взаимосвязь между
+        документами в информационной системе согласно стандартам</button> </a>
+    <a href=" #"><button class="btn-present">1.2 Виды внедрения, план внедрения. Стратегии, цели и сценарии
+        внедрения</button> </a>
+    <a href=" #"><button class="btn-present">1.3 Функции менеджера сопровождения и менеджера развертывания</button> </a>
+    <a href="#"><button class="btn-present">1.4 Типовые функции инструментария для автоматизации процесса внедрения
+        информационной системы</button> </a>
+    <a href="#"><button class="btn-present">1.5 Оценка качества функционирования информационной системы.
+        CALS-технологии</button> </a>
+    <a href="#"><button class="btn-present">1.6 Организация процесса обновления в информационной системе. Регламенты
+        обновления</button> </a>
+    <a href="#"><button class="btn-present">1.7 Тестирование программного обеспечения в процессе внедрения и
+        эксплуатации</button> </a>
+    <a href="#"><button class="btn-present">1.8 Эксплуатационная документация</button> </a>
+    <a href="#"><button class="btn-present">1.9 Понятие совместимости программного обеспечения. Аппаратная и программная
+        совместимость. Совместимость драйверов</button> </a>
+    <a href="#"><button class="btn-present">1.10 Причины возникновения проблем совместимости. Методы выявления проблем
+        совместимости ПО</button> </a>
+    <a href="#"><button class="btn-present">1.11 Выполнение чистой загрузки. Выявление причин возникновения проблем
+        совместимости ПО. Выбор методов выявления совместимости</button> </a>
+    <a href="#"><button class="btn-present">1.12 Проблемы перехода на новые версии программ. Мастер совместимости
+        программ. Инструментарий учета аппаратных компонентов</button> </a>
+    <a href="#"><button class="btn-present">1.13 Анализ приложений с проблемами совместимости. Использование динамически
+        загружаемых библиотек</button> </a>
+    <a href="#"><button class="btn-present">1.14 Создание в системе виртуальной машины для исполнения
+        приложений</button> </a>
+    <a href="#"><button class="btn-present">1.15 Изменение настроек по умолчанию в образе. Подключение к сетевому
+        ресурсу. Настройка обновлений программ. Обновление драйверов</button> </a>
+
+  </dialog>
+
+  <!-- 04.02 -->
+  <dialog id="MDK_04_02" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Обеспечение качества функционирования компьютерных систем</h2>
+    <a href=" # "><button class="btn-present">1.1 Многоуровневая модель качества программного обеспечения</button> </a>
+    <a href=" #"><button class="btn-present">1.2 Объекты уязвимости</button> </a>
+    <a href=" #"><button class="btn-present">1.3 Дестабилизирующие факторы и угрозы надежности.</button> </a>
+    <!-- <a href="#"><button class="btn-present">1.4</button> </a>
+    <a href="#"><button class="btn-present">1.5</button> </a>
+    <a href="#"><button class="btn-present">1.6</button> </a>
+    <a href="#"><button class="btn-present">1.7</button> </a>
+    <a href="#"><button class="btn-present">1.8</button> </a>
+    <a href="#"><button class="btn-present">1.9</button> </a>
+    <a href="#"><button class="btn-present">1.10</button> </a>
+    <a href="#"><button class="btn-present">1.11</button> </a> -->
+  </dialog>
+
+  <!-- ОП 14  -->
+  <dialog id="OP_14" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Сетевое и системное администрирование</h2>
+    <a href=" "><button class="btn-present">1.1 Управление пользователями и группами. Управление организационными
+        подразделениями, делегирование полномочий. Групповые политики.</button> </a>
+    <a href=" #"><button class="btn-present">1.2 Система безопасности: протокол Kerberos, настройка параметров системы
+        безопасности.</button> </a>
+    <a href=" #"><button class="btn-present">1.3 Базовые и динамические диски, тома. Файловые системы FAT16, FAT32,
+        NTFS.</button> </a>
+    <a href="#"><button class="btn-present">1.4 Права доступа, наследование прав доступа, взятие во владение, аудит
+        доступа к ресурсам. Сжатие и шифрование информации. Квоты. Дефрагментация.</button> </a>
+    <!-- <a href="#"><button class="btn-present">1.5</button> </a>
+    <a href="#"><button class="btn-present">1.6</button> </a>
+    <a href="#"><button class="btn-present">1.7</button> </a>
+    <a href="#"><button class="btn-present">1.8</button> </a>
+    <a href="#"><button class="btn-present">1.9</button> </a>
+    <a href="#"><button class="btn-present">1.10</button> </a>
+    <a href="#"><button class="btn-present">1.11</button> </a> -->
+  </dialog>
+
+  <!-- ОП 15 -->
+  <dialog id="OP_15" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Компьютерная графика</h2>
+    <a href=" # "><button class="btn-present">1.1 Дизайн, общие понятия. Специфика зрительного восприятия. Композиция
+        материалов.</button> </a>
+    <a href=""><button class="btn-present">1.2 Архитектура шрифта, верстка, размещение иллюстраций. Деловая
+        графика.</button> </a>
+    <a href=" #"><button class="btn-present">1.3 Природа цвета. Особенности восприятия цветов.</button> </a>
+    <a href="#"><button class="btn-present">1.4 Природа цвета. Особенности восприятия цветов. Дизайн представительской
+        продукции. Дизайн книжного издания.</button> </a>
+    <a href="#"><button class="btn-present">1.5 Цветовые модели. Принципы получения цветов в цветовых моделях: RGB,
+        CMYK, Lab, HSB. Цветовой охват. Цветовой круг</button> </a>
+    <a href="#"><button class="btn-present">1.6 Растровая графика. Особенности, достоинства и недостатки растровой
+        графики.</button> </a>
+    <a href="#"><button class="btn-present">1.7 Векторная графика. Особенности, достоинства и недостатки растровой
+        графики</button> </a>
+    <a href="#"><button class="btn-present">1.8 Типы и параметры пиксельных изображений. Разрешение.</button> </a>
+    <a href="#"><button class="btn-present">1.9 Источники пиксельных изображений</button> </a>
+    <a href="#"><button class="btn-present">1.10 Виды сжатия файлов. Форматы графических файлов</button> </a>
+    <a href="#"><button class="btn-present">1.11 Структура окна программы Adobe Photoshop. Настройки интерфейса.
+        «Горячие клавиши»</button> </a>
+    <a href="#"><button class="btn-present">1.12 Программные обеспечение для компьютерного дизайна</button> </a>
+    <a href="#"><button class="btn-present">1.13 Виды растровых и векторных графических редакторов их
+        характеристика.</button> </a>
+    <a href="#"><button class="btn-present">1.14 Особенности работы в программе GIMP. Интерфейс программы, основы работы
+        в программе</button> </a>
+    <a href="#"><button class="btn-present">1.15 Особенности работы в программе Inkscape. Интерфейс программы, основы
+        работы в программе</button> </a>
+    <a href="#"><button class="btn-present">1.16 Цветовая коррекция и цветоделение. Запись цвета и файл.</button> </a>
+    <a href="#"><button class="btn-present">1.17 Интерфейс программы Visual Studio</button> </a>
+    <a href="#"><button class="btn-present">1.18 Работа с панелями инструментов VisualStudio</button> </a>
+    <a href="#"><button class="btn-present">1.19 Назначение и возможности программы трехмерной графики</button> </a>
+    <a href="#"><button class="btn-present">1.20 Blender. Интерфейс редактора, особенности работы.</button> </a>
+    <a href="#"><button class="btn-present">1.21 Принципы создания трехмерной моделей (Основные меш-объекты)</button>
+    </a>
+    <a href="#"><button class="btn-present">1.22 Операции манипулирования меш-объектами. Понятие «рендера» и
+        «анимации»</button> </a>
+    <a href="#"><button class="btn-present">1.23 Принципы создания сцен и анимации</button> </a>
+  </dialog>
+  <!-- Веб-разработка -->
+  <dialog id="Web" class="myDialog">
+    <form method="dialog">
+      <button id="close" title="Закрыть" onclick="document.getElementById('dialog').style.display='none';">
+        &times;
+      </button>
+    </form>
+    <h2>Введение в HTML и CSS</h2>
+    <a href="../lectures/Web/1.1 Среда разработки.pdf"><button class="btn-present">1.1 Среда разработки и подготовка
+        рабочего места</button> </a>
+    <a href="../lectures/Web/1.2 Структура HTML документа.pdf"><button class="btn-present">1.2 Структура HTML
+        документа</button> </a>
+    <a href="../lectures/Web/1.3 Теги HTML документа.pdf"><button class="btn-present">1.3 Теги HTML документа</button>
+    </a>
+    <a href="#"><button class="btn-present">1.4 Медиофайлы на веб-странице</button> </a>
+    <a href="#"><button class="btn-present">1.5 Списки и спецсимволы на веб-страницах</button> </a>
+    <a href="#"><button class="btn-present">1.6 Таблицы и блоки на страницах </button> </a>
+    <a href="#"><button class="btn-present">1.7 Гиперссылки </button> </a>
+    <a href="#"><button class="btn-present">1.8 Основы CSS</button> </a>
+    <a href="#"><button class="btn-present">1.9 Блочные модели</button> </a>
+    <a href="#"><button class="btn-present">1.10 Адаптивный дизайн</button> </a>
+    <a href="#"><button class="btn-present">1.11 Дополнительные возможности</button> </a>
+    <h2>JavaScript</h2>
+    <a href="#"><button class="btn-present">2.1 Введение в JavaScript </button> </a>
+    <a href="#"><button class="btn-present">2.2 Переменные и типы данных</button> </a>
+    <a href="#"><button class="btn-present">2.3 Базовые операторы </button> </a>
+    <a href="#"><button class="btn-present">2.4 Условное ветвление</button> </a>
+    <a href="#"><button class="btn-present">2.5 Конструкция switch</button> </a>
+    <a href="#"><button class="btn-present">2.6 Циклы</button> </a>
+    <a href="#"><button class="btn-present">2.7 Функции</button> </a>
+    <a href="#"><button class="btn-present">2.8 Качество кода</button> </a>
+    <a href="#"><button class="btn-present">2.9 Объекты: основы </button> </a>
+    <a href="#"><button class="btn-present">2.10 Структуры данных</button> </a>
+    <a href="#"><button class="btn-present">2.11 Работа с DOM</button> </a>
+  </dialog>

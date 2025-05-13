@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+}
+
+.block-autoriz{
+  background: linear-gradient(to right, #67217a, #03175e);
+  width: 450px;
+  height: 350px;
+  border: black 5px solid;
+  border-radius: 10px;
+  top: 100px;
+  left: calc(50% - 450px / 2);
+  position: relative;
+}
+.input {
+  margin: 10px;
+  display: block;
+  margin-left: 60px;
+  width: 300px;
+  height: 30px;
+  border: black 3px solid;
+  border-radius: 3px;
+}
+.label1 {
+  margin-left: 60px;
+  color: white;
+  font-size: 25px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 130px;
+  color: white;
+}
+.btn {
+  font-size: 20px;
+  color: #03175e;
+  margin-top: 30px;
+  margin-left: 150px;
+  width: 125px;
+  height: 50px;
+  border-radius: 5px;
+}
+.registr {
+  position: relative;
+  top: 110px;
+  left: calc(50% - 250px / 2);
+}
+/* Регистрация */
+.block-reg {
+  background: linear-gradient(to right, #67217a, #03175e);
+  width: 450px;
+  height: 550px;
+  border: black 5px solid;
+  border-radius: 10px;
+  top: 30px;
+  left: calc(50% - 450px / 2);
+  position: relative;
+}
+.checkbox{
+  left: calc(50% - 200px / 2);
+  color: white;
+  position: relative;
+}
+.btn1 {
+  font-size: 20px;
+  color: #03175e;
+  margin-top: 30px;
+  margin-left: 120px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+}
+.nazad{
+  position: absolute;
+  font-size: 28px;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.nazad:hover{
+  font-size: 36px;
+}
+.recroll {
+  left: 155px;
+  position: absolute;
+  color: white;
+ width: 200px;
+cursor: pointer;
+}
+.recroll:hover {
+  color: white;
+ width: 200px;
+cursor: pointer;
+}
+  
+ 
+
